@@ -2,5 +2,5 @@
   border: 5px solid yellowgreen;
 }
 #not-selected {
-  border: none;
+  border: 2px solid gray;
 }

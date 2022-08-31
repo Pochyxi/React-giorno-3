@@ -19,7 +19,7 @@ class SingleBook extends React.Component {
         
         <Card id={this.change()} onClick={() => {
             this.setState({selected: !this.state.selected});
-        }} style={{ width: '18rem' }}>
+        }} style={{ width: '10rem' }}>
             <Card.Img className={this.change()} variant="top" src={this.props.img} />
             <Card.Body>
                 <Card.Title>{this.props.title}</Card.Title>
