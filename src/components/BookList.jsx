@@ -7,6 +7,7 @@ class BookList extends React.Component {
         string:'',
     }
     
+    
     filterBookList = () => {
           return this.props.list.filter((book) => book.title.toLowerCase().includes(this.state.string))
         
